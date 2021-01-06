@@ -18,7 +18,7 @@ function setUserName() {
       setUserName();
     } else {
       localStorage.setItem('name', myName);
-      myHeading.textContent = `Nature is amazing, ${myName}`;
+      myHeading.textContent = `Space is Astonishing, ${myName}`;
     }
   }
 
@@ -26,7 +26,7 @@ function setUserName() {
     setUserName();
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Nature is amazing, ' + storedName;
+    myHeading.textContent = 'Space is Astonishing, ' + storedName;
   }
 
   myButton.onclick = function() {
